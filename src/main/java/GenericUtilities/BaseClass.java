@@ -43,7 +43,7 @@ public class BaseClass {
 		driver=new EdgeDriver();
 		// For cross browser testing opening 2 browsers
 //		if(PValue=="edge") {
-//			driver=new EdgeDriver();
+//			driver=new ChromeDriver();
 //		}else if(PValue=="chrome") {
 //			driver=new ChromeDriver();
 //		}else{
