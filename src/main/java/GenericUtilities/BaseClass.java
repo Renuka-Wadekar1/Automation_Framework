@@ -40,7 +40,7 @@ public class BaseClass {
 	@BeforeClass(alwaysRun = true)
 	public void bcconfig(/*String PValue*/) throws IOException {
 		
-		driver=new EdgeDriver();
+		driver=new ChromeDriver();
 		// For cross browser testing opening 2 browsers
 //		if(PValue=="edge") {
 //			driver=new ChromeDriver();
