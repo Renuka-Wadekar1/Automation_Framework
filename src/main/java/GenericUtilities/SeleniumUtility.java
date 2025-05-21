@@ -43,7 +43,7 @@ public class SeleniumUtility {
 	  */
 	 
 	 public void AddImplicitylyWait(WebDriver driver){
-		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	 }
 	 /*
 	  * This method will wait for 10 seconds for element to be visible
