@@ -48,10 +48,10 @@ public class AddLowestPriceProductToCart extends BaseClass {
 				AssertJUnit.assertTrue(ProductIncart.contains(PRODUCTNAME));
 	}
 
-@Test(groups = "RegressionSuite")
-public void sample()
-{
-	Assert.fail();
-	System.out.println("Sample");
-}
+//@Test(groups = "RegressionSuite")
+//public void sample()
+//{
+	//Assert.fail();
+	//System.out.println("Sample");
+//}
 }
